@@ -17,4 +17,3 @@ Run main.py:
 ```python
 python main.py
 ```
-# LAB3-PFP191

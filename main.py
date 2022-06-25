@@ -1,5 +1,4 @@
 import re
-from timeit import default_timer as timer
 
 
 def isanagrams(s1, s2):
@@ -8,9 +7,9 @@ def isanagrams(s1, s2):
     )
 
 
-def hex_to_dec(hex_string):
+def hex_to_dec(hex_string: str):
     try:
-        return int(f"0x{hex_string}", 16)
+        return float.fromhex(hex_string)
     except:
         return "Your string can't convert to decimal"
 
